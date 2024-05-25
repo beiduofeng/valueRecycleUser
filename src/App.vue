@@ -1,27 +1,13 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-   
-
-    <div>
-      <HelloWorld msg="你本来就有价值" />
-    </div>
-  </header>
-
-  
+  <p> {{ msg }} </p>
 </template>
 
-<style scoped>
-
-
-@media (min-width: 1024px) {
-  
+<script>
+export default {
+  data() {
+    return {
+      msg:"sunjinyao"
+    }
+  }
 }
-  
-  
-
-</style>
+</script>
